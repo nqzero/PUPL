@@ -3,11 +3,17 @@
 ### are you a lawyer ?
 no
 
-### how do i use this license ?
+### how do i apply this license ?
 choose a strike price.
 this is the maximum that anyone will ever need to pay you to use your software on 1 core for 1 year.
-add a note "this software is licensed under the terms of PUPL from nqzero, with a per-annum strike price of $100".
+add a header to your software stating the license and strike price, eg "this software is licensed under the terms of the nqzero PUPL, with a per-annum strike price of $100".
+you should be prepared to meet the assurances, eg to publish full prices and issue licenses
 
+
+### is this license an open source or Free Software license ?
+no.
+please don't refer to this license, or to software licensed under it, as either.
+it's possible that with a strike price of zero it would be, but in this case it would be better to use an established FOSS license instead
 
 
 ### has a lawyer signed off on this license ?
@@ -19,31 +25,37 @@ i guess my inspiration is the json license - it's plain english
 
 
 ### why not free or open source software ?
-i've written a database software and i'm hoping to use this license for it
+i wrote a database engine and i'm hoping to use this license for it
 
-ultimately, i'm hoping to return a profit on the time i've invested and continue to invest in creating the database. for some products, open source can be a profitable path, typically by charging for support or hosting the software or as marketing for consulting services. however, for some useful products, these paths don't seem to work well even though the software product is widely used. this license is an assurance that if my software is widely adapted, i'll make money
+i invested and continue to invest a fair amount of time and money in creating the database, in the hope of returning a profit on my investment. for some products, open source can be a profitable path, eg by charging for support or hosting the software or as marketing for consulting services. however, for some useful products, these paths don't seem to work well even though the software product is widely used. this license is an assurance that if my software is widely used, i'll make money
 
-further, it enables me to develop the software to maximize usefulness, as opposed to maximize the need for support services
+further, it enables me to develop the software to maximize usefulness, as opposed to maximize the need for support services or some other indirect path to profit
 
 i don't know that this license is the right one, but i feel there exists potential for a license in this space
 that balances creator profits with user freedom
 
 
 ### why not a (traditional) proprietary license ?
-such licenses discourage adoption and use by making it hard for a user or ISV to predict future costs. due to the investment in adopting a software or building products on it, users and ISVs are locked into it. the developer can increase the price of additional copies of the software or charge arbitrary prices far above actual costs for adding features or fixing bugs (even security bugs). while i don't intend to charge prices in this way, it would be foolish for a prospective customer to invest in software without assurances that the developer won't abuse this investment in the future. this license attempts to provide that assurance and stimulate adoption
+such licenses discourage adoption and use by making it hard for a user or ISV to predict future costs. due to the investment in adopting a software or building products on it, users and ISVs are locked in. the developer can increase the price of additional copies of the software or charge arbitrary prices far above actual costs for adding features or fixing bugs (even security bugs). while i don't intend to charge prices in this way, it would be foolish for a prospective user to adopt a software without assurances that the developer won't abuse this lockin in the future. this license attempts to provide that assurance and stimulate adoption
 
 
-### if my business adopts this software, can the price increase later (if my usage stays the same) ?
+# Risks and protections for users that adopt software licensed under these terms
+
+
+
+### if my business adopts software under this license, can the price increase later (if my usage stays the same) ?
 if you pay the sale (as opposed to full) price, then the sale price could increase
 if you pay the full price, then each year you use the product you'll pay that same price (even with lapses)
 if you pay the lifetime price, then you don't have to pay again
 
-### if my usage increases, will additional use-licenses cost more than i paid initially ?
-the price may increase. however, you'll never pay more than the strike price for a per-annum use-license. in addition, if you paid full price for a per-annum (without lapses) or a lifetime use-license, you're entitled to purchase 4 additional use-licenses at that same price. these rules are intended to protect you if you scale
+
+
+### if my usage of software licensed under these terms increases, will additional use-licenses cost more than i paid initially ?
+in general, the price may increase. however, you'll never pay more than the strike price for a per-annum use-license. in addition, if you paid full price for a per-annum (without lapses) or a lifetime use-license, you're entitled to purchase 4 additional use-licenses at that same price. these rules are intended to protect you if you scale
 
 
 ### should my company (an end user) pay full price or the sale price
-if you think that you're likely to use the software long term, then you may want to pay full price. your investment in learning the software and building tools upon it is probably higher than the full price, and paying full price means your price won't increase and hedges against future scale. it will also help pay for future development, which will benefit you
+if you think that you're likely to use the software long term, then you may want to pay full price. your investment in learning the software and building tools upon it is probably higher than the full price, and paying full price means your price won't increase and hedges against future scale. it will also help pay for future development, which you may want to encourage
 
 
 ### if my business makes a product that builds on your software (the upstream), what will it cost ?
@@ -51,32 +63,42 @@ you don't need to pay anything during development. your end users will have the 
 
 if you wish to hedge against price increases, you may wish to purchase a number of full price use-licenses, which you can then resell. either way, you and your customers are protected by the strike price
 
+you can also contact the developer and negotiate other terms for your specific case
+
 
 ### if i buy a version today, how does this license protect against price increases of future versions ?
 a full price license entitles you to use any version released in the next year, so short term this offers some protection
 also, much like FOSS, 3rd parties can develop similar functionality as those future versions based on the current version and compete with the upstream. this competition should help limit the price increases to real value added in future versions
 
-a full price lifetime use-license can be upgraded to a later version. the greater of the price you paid and the current price will be credited towards the full price for the new version. similarly, for a per-annum license (with a locked in price), you can apply the maximum of the current full price and the price paid towards upgrading to a later version (full price)
+a full price lifetime use-license can be upgraded to a later version. the greater of the price you paid and the current price of your version will be credited towards the full price for the new version
 
 
-### doesn't this license encourage you to make your software inefficient so it uses more cores
+### doesn't this license encourage you to make your software inefficient so it uses more cores ?
 again, much like FOSS, 3rd parties can develop (and profit from) more efficient implementations and compete with the upstream. this competition should result in efficient implementations
 
-if you have a use-license from upstream for a version, you can switch to a 3rd party (or your own) derivative at no additional cost (note: the 3rd party may charge for their version)
+you can apply an existing use-license from the developer to your use-license requirements for a derivative work if any of the following are true:
+- your use-license was purchased at non-zero cost
+- the derivative is open source
+- the derivative is your own work
+- the derivative is licensed under this license at no per-use cost to you
+
+
+note: the 3rd party may charge for their version
+
 
 
 ### can you give an example of an upgrade scenario
-in 2016 you pay $10 each for full price per-annum use-licenses. in 2018, that price increases to $50 and a new version is released with a price of $80. you upgrade to the new version and pay $40 each - $10 for your lock-in price, plus $30 for the difference between the old and new version
+in 2016 you pay $10 each for full price per-annum use-licenses. in 2018, that price increases to $50 and a new version is released with a full price of $80. you upgrade to the new version and pay $40 each - $10 for your lock-in price, plus $30 for the difference between the old and new version
 
 
 ### can you give an example of scaling my usage
-in 2016 the prices are $0/$10/$100/$100 and you pay $10 each for 100 cores, locking in that price. in 2017 you pay $1000 to renew those licenses. in 2018 your company grows and you need 200 cores, but the prices have increased to $50/$50/$200/$100. you've had no lapses, so you're able to purchase the additional cores at $10 (your lock-in price) per-annum. if you'd used the sale price (paying $0 in 2016 and 2017), you'd have to pay $50 per core in 2018
+in 2016 the (sale/full/lifetime/strkie) prices are $0/$10/$100/$100 and you pay $10 each for 100 cores, locking in that price. in 2017 you pay $1000 to renew those licenses. in 2018 your company grows and you need 200 cores, but the prices have increased to $50/$50/$200/$100. you've had no lapses, so you're able to purchase the additional cores at $10 (your lock-in price) per-annum. if you'd used the sale price (paying $0 in 2016 and 2017), you'd have to pay $50 per core in 2018
 
 note: this is an extreme example and i don't expect to increase prices this quickly
 
 
 ### why not just use a fixed price ?
-initially, the ecosystem for this software is limited and early adopters are taking risk. the non-fixed price allows me to offer the software at a price that reflects the current utility and risk without limiting my ability to charge a higher price (more reflective of the total investment) later as the utility increases and the risk decreases. it also rewards early adopters
+initially, the ecosystem for this software is limited and early adopters are taking risk. the non-fixed price allows me to offer the software at a price that reflects the current utility and risk without limiting my ability to charge a higher price (more reflective of the total investment and true utility) later as the utility increases and the risk decreases. it also rewards early adopters
 
 
 ### why are non-production usages free ?
@@ -87,6 +109,15 @@ it's an arbitrary line, but:
 
 there's no perfect answer on where to draw the line, but this is a decent compromise
 
+### what counts as production use of the Software ?
+The central idea is that the software is used for the sake of the data that it produces, manipulates or stores. examples include a web server accessed on the internet, an internal app employees use to record timesheets, and a GUI that helps visualize data from a database
+
+some examples of non-production uses:
+- prototyping a new system, where the output data is not used directly
+- learning to use, or teaching others to use, the Software
+- benchmarking or testing the Software or systems built with it
+- reverse engineering the Software so that a compatible system can be built
+
 
 ### are there any known flaws with this license
 note: this refers to flaws in the license, not flaws in software that has been licensed with it
@@ -96,7 +127,7 @@ but can't figure out how to do that without being effectively fixed-price
 
 
 what are the goals of this license ?
- - provide end users and ISVs with known future costs
+ - provide end users and ISVs with predictable future costs
  - provide the developer with income
  - encourage development of useable software, vs tools that will drive support-based income
 
