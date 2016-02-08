@@ -3,7 +3,7 @@
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,  and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 - The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software
-- and you agree to the terms of this agreement, specifically, the use-license and distribution restrictions
+- and you agree to the terms of this agreement:
 
 
 ### The Agreement
@@ -11,11 +11,11 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 - permission to use this software for other purposes is hereby granted
 - you agree to present to a potential recipient of a distribution the above copyright notice and these license terms
 
-if a distribution, whether verbatim, derivative or bundled, includes all source code licensed under either:
+if a work that you distribute, that in whole or in part contains or is derived from the software or any part thereof, is accompanied by the complete corresponding source code or an equivalent offer of such, licensed under either:
  - this license, at no additional per-use cost
  - an OSI-approved open source license
 
-then use-license responsibilities may be left solely to the recipient, who may apply any use-license (including those acquired at zero cost) to satisfy their use-license requirements.
+then use-license responsibilities may be left solely to the recipient, who may apply any use-license or equivalent (including those acquired at zero cost) to satisfy their use-license requirements.
 otherwise, you agree to acquire on the recipients behalf, or verify they possess, an applicable use-license
 
 
@@ -29,7 +29,7 @@ otherwise, you agree to acquire on the recipients behalf, or verify they possess
 the copyright owner agrees:
 - to specify a fixed strike price which the per-annum full price will never exceed
 - to publish per-annum and lifetime full prices, subject to monthly changes
-- to issue use-licenses purchasable at full price (per-annum or lifetime) that will:
+- to issue use-licenses purchasable at full price (per-annum and lifetime) that will:
     - be transferable
     - be renewable (for per-annum, even with lapses) at that original price each year
     - without lapses, entitle purchase and renewal of 4 additional units at that original price
