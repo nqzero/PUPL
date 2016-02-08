@@ -7,11 +7,11 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 
 ### The Agreement
-- you agree to acquire a use-license from the copyright owner for production use
-- permission to use this software for other purposes is hereby granted
-- you agree to present to a potential recipient of a distribution the above copyright notice and these license terms
+- you agree to acquire a use-license from the copyright owner for production use of the Software
+- permission to use the Software for other purposes is hereby granted
+- you agree to present to a potential recipient of a distribution of the Software the above copyright notice and these license terms
 
-if a work that you distribute, that in whole or in part contains or is derived from the software or any part thereof, is accompanied by the complete corresponding source code or an equivalent offer of such, licensed under either:
+if a work that you distribute, that in whole or in part contains or is derived from the Software or any part thereof, is accompanied by the complete corresponding source code or an equivalent offer of such, licensed under either:
  - this license, at no additional per-use cost
  - an OSI-approved open source license
 
@@ -37,10 +37,10 @@ the copyright owner agrees:
     - credit the greater of the current or the paid price of your version towards upgrade to a future version
 - to allow all use-licenses purchased at non-zero-cost to be applied to use of either the original work or any derivative work, though derivative works may add additional restrictions
 
-in the event that the copyright owner is unable to issue or fails in a timely manner to issue a use-license consistent with these terms at your request and attempted payment, you are granted non-transferable permission to use this software on any number of cores for any purpose for 1 year,
+in the event that the copyright owner is unable or fails to issue in a timely manner a use-license consistent with these terms at your request and attempted payment, you are granted non-transferable permission to use the Software on any number of cores for any purpose for 1 year,
 and, if you place full non-zero payment in escrow, all the rights you would have been entitled to had the use-licenses been issued
 
-if this non-issue condition persists for 2 consecutive years, during which you make reasonable unsuccessful attempts to acquire use-licenses, or the software is publicly abandoned, you are granted a license to the software under the terms of the MIT license
+if this non-issue condition persists for 2 consecutive years, during which you make reasonable unsuccessful attempts to acquire use-licenses, or the Software is publicly abandoned, you are granted a license to the Software under the terms of the MIT license
 
 you accept that you are entitled to no other relief if the copyright owner is unable to or chooses not to issue use-licenses consistent with these terms
 
