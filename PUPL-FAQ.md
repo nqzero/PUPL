@@ -27,12 +27,12 @@ i guess my inspiration is the json license - it's plain english
 ### why not free or open source software ?
 i wrote a database engine and i'm hoping to use this license for it
 
-i invested and continue to invest a fair amount of time and money in creating the database, in the hope of returning a profit on my investment. for some products, open source can be a profitable path, eg by charging for support or hosting the software or as marketing for consulting services. however, for some useful products, these paths don't seem to work well even though the software product is widely used. this license is an assurance that if my software is widely used, i'll make money
+i invested and continue to invest a fair amount of time and money in creating the database, in the hope of making money. for some products, open source can be a profitable path, eg by charging for support or hosting the software or as marketing for consulting services. however, for some useful products, these paths don't seem to work well even though the software product is widely used. this license is an assurance that if my software is widely used, i'll make money
 
 further, it enables me to develop the software to maximize usefulness, as opposed to maximize the need for support services or some other indirect path to profit
 
 i don't know that this license is the right one, but i feel there exists potential for a license in this space
-that balances creator profits with user freedom
+that balances creator profits with user freedom and would be mutually beneficial
 
 
 ### why not a (traditional) proprietary license ?
@@ -44,14 +44,14 @@ such licenses discourage adoption and use by making it hard for a user or ISV to
 
 
 ### if my business adopts software under this license, can the price increase later (if my usage stays the same) ?
-if you pay the sale (as opposed to full) price, then the sale price could increase
-if you pay the full price, then each year you use the product you'll pay that same price (even with lapses)
+if you pay the sale (as opposed to full) price, then the sale price could increase.
+if you pay the full price, then each year you use the product you'll pay that same price (even with lapses).
 if you pay the lifetime price, then you don't have to pay again
 
 
 
 ### if my usage of software licensed under these terms increases, will additional use-licenses cost more than i paid initially ?
-in general, the price may increase. however, you'll never pay more than the strike price for a per-annum use-license. in addition, if you paid full price for a per-annum (without lapses) or a lifetime use-license, you're entitled to purchase 4 additional use-licenses at that same price. these rules are intended to protect you if you scale
+in general, the price may increase. however, you'll never pay more than the strike price for a per-annum use-license, or 10 times that for a lifetime. in addition, if you paid full price for a per-annum (without lapses) or a lifetime use-license, you're entitled to purchase 4 additional use-licenses at that same price. these rules are intended to protect you if you scale
 
 
 ### should my company (an end user) pay full price or the sale price
@@ -59,7 +59,7 @@ if you think that you're likely to use the software long term, then you may want
 
 
 ### if my business makes a product that builds on your software (the upstream), what will it cost ?
-you don't need to pay anything during development. your end users will have the same responsibilities they would have if they used the upstream directly, so they'll need a use-license. if you release your software under either an OSI approved open source license or this license (and provide the source code), and don't charge for it, then you don't need to worry about this, other than to inform the user of their responsibilities. if you charge users for your software, then you must acquire on their behalf a (or verify that they have an existing) use-license from the upstream. otherwise, you must provide a list of known users to the upstream
+you don't need to pay anything during development. your end users will have the same responsibilities they would have if they used the upstream directly, so they'll need a use-license. if you release your software under either a GPL-compatible license or this license (and provide the source code) at zero cost per-use, then you don't need to worry about this, other than to inform the user of their responsibilities. otherwise, you must acquire on their behalf a (or verify that they have an existing) use-license from the upstream
 
 if you wish to hedge against price increases, you may wish to purchase a number of full price use-licenses, which you can then resell. either way, you and your customers are protected by the strike price
 
@@ -83,7 +83,7 @@ you can apply an existing use-license from the developer to your use-license req
 - the derivative is licensed under this license at no per-use cost to you
 
 
-note: the 3rd party may charge for their version
+note: in some cases, the 3rd party may charge for their version
 
 
 
@@ -92,7 +92,7 @@ in 2016 you pay $10 each for full price per-annum use-licenses. in 2018, that pr
 
 
 ### can you give an example of scaling my usage
-in 2016 the (sale/full/lifetime/strkie) prices are $0/$10/$100/$100 and you pay $10 each for 100 cores, locking in that price. in 2017 you pay $1000 to renew those licenses. in 2018 your company grows and you need 200 cores, but the prices have increased to $50/$50/$200/$100. you've had no lapses, so you're able to purchase the additional cores at $10 (your lock-in price) per-annum. if you'd used the sale price (paying $0 in 2016 and 2017), you'd have to pay $50 per core in 2018
+in 2016 the (sale/full/lifetime/strike) prices are $0/$10/$100/$100 and you pay $10 each for 100 cores, locking in that price. in 2017 you pay $1000 to renew those licenses. in 2018 your company grows and you need 200 cores, but the prices have increased to $50/$50/$200/$100. you've had no lapses, so you're able to purchase the additional cores at $10 (your lock-in price) per-annum. if you'd used the sale price (paying $0 in 2016 and 2017), you'd have to pay $50 per core in 2018
 
 note: this is an extreme example and i don't expect to increase prices this quickly
 
@@ -124,6 +124,7 @@ note: this refers to flaws in the license, not flaws in software that has been l
 - IANAL
 - i'd like to offer current users stronger protection, eg unlimited scale,
 but can't figure out how to do that without being effectively fixed-price
+- the license is too long
 
 
 what are the goals of this license ?
@@ -133,4 +134,4 @@ what are the goals of this license ?
 
 
 
-#### copyright nqzero 2016
+copyright nqzero 2016
