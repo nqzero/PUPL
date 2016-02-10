@@ -17,11 +17,11 @@ if a work that you distribute, that in whole or in part contains or is derived f
  - a license compatible with the GNU GPLv3
 
 then use-license responsibilities may be left solely to the recipient, who may apply any use-license or equivalent (including those acquired at zero cost) to satisfy their use-license requirements.
-otherwise, you agree to acquire on the recipients behalf, or verify they possess, an applicable use-license
+otherwise, you agree to acquire on the recipient's behalf, or verify they possess, an applicable use-license
 
 
 
-### Assurances:
+### Assurances
 the copyright owner agrees:
 - to specify a fixed strike price
 - to publish per-annum and lifetime full prices, not to exceed 1 times and 10 times the strike price respectively, subject to monthly changes
