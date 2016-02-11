@@ -35,11 +35,15 @@ The copyright owner agrees:
     - permit the holder to use the Software for production on, at the holder's choice, either a single core (i.e., an independent actual processing unit) or the computational equivalent of a single core of a 2015 intel core i5 6600, for a period of 1 year (per-annum) or the term of the copyright (lifetime), starting at the time of purchase
 - to allow all use-licenses purchased at non-zero-cost to be applied equally to use of either the original work or any derivative work, though derivative works may add additional restrictions
 
+- to grant a perpetual zero-cost non-transferable waiver for production use on up to 10 cores (independent actual processing units) of software licensed under these terms; this waiver not to be combined by multiple executions of this agreement, whether for the same or other software
 
 - that, in the event that the copyright owner is unable to or fails to issue in a timely manner a use-license consistent with these terms at your request and attempted payment, you are granted non-transferable permission to use the Software on any number of cores for any purpose for 2 years,
 and, if you place full non-zero payment in escrow, all the rights you would have been entitled to had the use-licenses been issued
 
 - that if this non-issue condition persists for 2 consecutive years, during which you make reasonable unsuccessful attempts to acquire use-licenses, or the Software is publicly abandoned, or the strike price is unspecified or zero, the copyright owner grants you a license to the Software under the terms of the MIT license and transferable unlimited permission to use the Software for any purpose for the term of the copyright
+
+- that if you have made reasonable effort to comply with these terms and upon learning of a deviation from them rendered any payment that would have achieved compliance, you shall be considered to have complied
+
 
 You accept that you are entitled to no other relief if the copyright owner is unable to or chooses not to issue use-licenses consistent with these terms.
 
