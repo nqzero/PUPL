@@ -5,6 +5,7 @@ for software offered under these terms
 - non-production use is free, as is production use on up to 10 cores
 - you may need to pay for use beyond that, but prices are capped at a maximum and non-discriminatory
 - you can freely copy, modify and distribute the software
+- if you redistribute under more restrictive terms, the 10 free cores don't apply
 
 
 ### The License
