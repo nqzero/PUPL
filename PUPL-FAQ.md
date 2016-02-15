@@ -10,7 +10,7 @@ add a header to your software stating the license and strike price, eg "this sof
 you should be prepared to meet the assurances, eg to publish full prices and issue licenses
 
 
-### is this license an open source or Free Software license ?
+### is this license an open source or Free Software (FOSS) license ?
 no.
 please don't refer to this license, or to software licensed under it, as either.
 it's possible that with a strike price of zero it would be, but in this case it would be better to use an established FOSS license instead
@@ -27,7 +27,7 @@ i guess my inspiration is the json license - it's plain english
 ### why not free or open source software ?
 i wrote a database engine and i'm hoping to use this license for it
 
-i invested and continue to invest a fair amount of time and money in creating the database, in the hope of making money. for some products, open source can be a profitable path, eg by charging for support or hosting the software or as marketing for consulting services. however, for some useful products, these paths don't seem to work well even though the software product is widely used. this license is an assurance that if my software is widely used, i'll make money
+i invested and continue to invest a fair amount of time and money in creating the database, in the hope of making money. for some products, open source can be a profitable path, eg by charging for support or hosting the software or as marketing for consulting services. however, for some useful products, these paths don't seem to work well even though the software product is widely used. this license is an assurance that if my software is widely used, i'll make some money
 
 further, it enables me to develop the software to maximize usefulness, as opposed to maximize the need for support services or some other indirect path to profit
 
@@ -36,7 +36,35 @@ that balances creator profits with user freedom and would be mutually beneficial
 
 
 ### why not a (traditional) proprietary license ?
-such licenses discourage adoption and use by making it hard for a user or ISV to predict future costs. due to the investment in adopting a software or building products on it, users and ISVs are locked in. the developer can increase the price of additional copies of the software or charge arbitrary prices far above actual costs for adding features or fixing bugs (even security bugs). while i don't intend to charge prices in this way, it would be foolish for a prospective user to adopt a software without assurances that the developer won't abuse this lockin in the future. this license attempts to provide that assurance and stimulate adoption
+this topic has been discussed at length in the FOSS literature so i won't rehash it all here.
+but personally, i avoid software under such terms because of the danger of lockin and the lack of source code.
+in spite of these risks, i did purchase and use jetbrain's Webstorm, and wasn't happy when they changed their terms.
+part of my inspiration for this license was shaped by trying to prevent the sort of thing that happened with jetbrains
+
+
+# licensing for derivative works
+
+### can i make a derivative work with the new portion licensed under the MIT license
+- yes, and this is also true for similar (GPL-compatible) licenses such as the Apache License
+- tell the recipient about the copyright and license terms
+
+### can i make a derivative work with the new portion licensed under this license
+- yes
+- tell the recipient about the copyright and license terms
+- if you charge a user for a use-license, you need to verify they have one from the original work
+- users may use any non-zero-cost use-license to satisfy this requirement
+- you can buy use-licenses for the original and transfer them to a user
+
+if you wish to hedge against price increases, you may wish to purchase a number of full price use-licenses, which you can then resell. either way, you and your customers are protected by the strike price
+
+you can also contact the developer and negotiate other terms for your specific case
+
+### can i make a derivative work that's closed source
+- yes
+- tell the recipient about the copyright and license terms
+- you'll need to verify the user has a use license or buy one for them
+- see above
+
 
 
 # Risks and protections for users that adopt software licensed under these terms
@@ -44,26 +72,24 @@ such licenses discourage adoption and use by making it hard for a user or ISV to
 
 
 ### if my business adopts software under this license, can the price increase later (if my usage stays the same) ?
-if you pay the sale (as opposed to full) price, then the sale price could increase.
-if you pay the full price, then each year you use the product you'll pay that same price (even with lapses).
-if you pay the lifetime price, then you don't have to pay again
+- if you pay the full price, then each year you use the product you'll pay that same price (even with lapses)
+- if you pay the lifetime price, then you don't have to pay again
+- if the vendor offered a sale price, then the sale price may increase
 
 
 
 ### if my usage of software licensed under these terms increases, will additional use-licenses cost more than i paid initially ?
-in general, the price may increase. however, you'll never pay more than the strike price for a per-annum use-license, or 10 times that for a lifetime. in addition, if you paid full price for a per-annum (without lapses) or a lifetime use-license, you're entitled to purchase 4 additional use-licenses at that same price. these rules are intended to protect you if you scale
+in general, the price may increase. however, a few rules exist to protect you if you scale
+- you'll never pay more than the strike price for a per-annum use-license, or 10 times that for a lifetime
+- if you paid full price for a per-annum (without lapses) or a lifetime use-license, you're entitled to purchase 4 additional use-licenses at that same price
+- price changes must be announced a month in advance
+- full price licenses are transferable, so you could buy existing use-licenses from someone that is no longer using it
+- 3rd parties can make derivative works that are more efficient, allowing your current licenses to process more data
 
 
 ### should my company (an end user) pay full price or the sale price
 if you think that you're likely to use the software long term, then you may want to pay full price. your investment in learning the software and building tools upon it is probably higher than the full price, and paying full price means your price won't increase and hedges against future scale. it will also help pay for future development, which you may want to encourage
 
-
-### if my business makes a product that builds on your software (the upstream), what will it cost ?
-you don't need to pay anything during development. your end users will have the same responsibilities they would have if they used the upstream directly, so they'll need a use-license. if you release your software under either a GPL-compatible license or this license (and provide the source code) at zero cost per-use, then you don't need to worry about this, other than to inform the user of their responsibilities. otherwise, you must acquire on their behalf a (or verify that they have an existing) use-license from the upstream
-
-if you wish to hedge against price increases, you may wish to purchase a number of full price use-licenses, which you can then resell. either way, you and your customers are protected by the strike price
-
-you can also contact the developer and negotiate other terms for your specific case
 
 
 ### if i buy a version today, how does this license protect against price increases of future versions ?
@@ -129,7 +155,7 @@ but can't figure out how to do that without being effectively fixed-price
 
 what are the goals of this license ?
  - provide end users and ISVs with predictable future costs
- - provide the developer with income
+ - provide the developer with income if the software is widely used
  - encourage development of useable software, vs tools that will drive support-based income
 
 

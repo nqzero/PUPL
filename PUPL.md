@@ -5,7 +5,7 @@ for software offered under these terms
 - non-production use is free, as is production use on up to 10 cores
 - you may need to pay for use beyond that, but prices are capped at a maximum and non-discriminatory
 - you can freely copy, modify and distribute the software
-- if you redistribute under more restrictive terms, the 10 free cores don't apply
+- if you distribute a derivative work under more restrictive terms, eg without source, you need to pay for use (as above) on your users' behalf
 
 
 ### The License
@@ -35,7 +35,7 @@ Otherwise, you agree to acquire on the recipient's behalf, or verify they posses
 ### Assurances
 The copyright owner agrees:
 - to specify a fixed strike price
-- to publish per-annum and lifetime full prices, not to exceed 1 times and 10 times the strike price respectively, subject to monthly changes
+- to publish per-annum and lifetime full prices, not to exceed 1 times and 10 times the strike price respectively, and to announce changes a month in advance
 - to issue use-licenses (per-annum and lifetime) purchasable without further restriction at full price (or, at your option, the respective strike prices) that will:
     - be transferable
     - be renewable (for per-annum, even with lapses) at that original price each year
