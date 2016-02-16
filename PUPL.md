@@ -49,7 +49,7 @@ The copyright owner agrees:
 
 - that if you have made reasonable effort to comply with these terms and upon learning of a deviation from them rendered any payment that would have achieved compliance, you shall be considered to have complied; and that if actual usage is difficult to calculate an estimate may be used in lieu
 
-- that if low duty cycle usage is spread over 2 or more cores, simultaneous usage driven by coincidence, as opposed to by production necessity, can be averaged over time
+- that if low duty cycle usage is spread over multiple cores and simultaneous usage is driven by coincidence, as opposed to by production necessity, then usage may be averaged over time
 
 - that, in the event that the copyright owner is unable to or fails to issue in a timely manner a use-license consistent with these terms at your request and attempted payment, you are granted non-transferable permission to use the Software on any number of cores for any purpose for 2 years,
 and, if you place full non-zero payment in escrow, all the rights you would have been entitled to had the use-licenses been issued
